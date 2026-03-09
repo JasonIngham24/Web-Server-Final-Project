@@ -1,1 +1,11 @@
-# Web-Server-ECommerce-Web-Application
+# Web-Server-Class-Project
+<img width="271" height="478" alt="image" src="https://github.com/user-attachments/assets/870b4a51-9fd9-4fd5-98d2-b8aed55b4ed8" />
+
+## About Me
+My name is Jason Ingham. I am a Senior Graduating from Suny New Paltz in May. I got my associates degree at Suny Dutchess Community College where I then transferred to New Paltz to complete my bachelor’s degree. I have been studying computer science since high school. I am a new uncle to my nephew Parker who just turned one at the start of the year. I have one dog, a golden doodle, named Brooks. I am an avid gamer, and I play for Suny New Paltz’s esports team. I love to Golf and I love to play courses with my family, who are all avid golfers. My goal is to beat the best golfer in my family, my older brother. I played volleyball on the varsity team in high school, and I still enjoy playing the sport, but I am not in any official club or team.
+
+## Experience
+I grew up during a time of huge advancements in technology and especially the internet. I was constantly online, and I wanted to continue that with my career. Starting in high school I dived into the world of Computer Science and have continued that path ever since. I have taken classes that use Python, Java, C, C++, HTML, CSS, Java Script, MySQL, and I have taught myself LUA. While at New Paltz I took elective classes in Cybersecurity, Web and Database Programming, Computer Vision, and Web Page Design. I have written a program that sums all the even numbers in a Fibonacci Sequence for a class project, and I am currently working on a baseball stat tracking software for coaches.
+
+## Goals
+I plan on using this course to build my knowledge of databases and integrating them with front end web pages. I want to use what I learn to help me get more comfortable with doing projects outside of the classroom. Currently I don’t have many projects that I have made outside of a class setting. I would like to use what I learn to do bigger scale projects on my own time to build up a repository of projects that can be showcased to future employers. This course will also help me create my baseball stat tracking project as I want to have a front-end web page that sends and receives data to and from a database of player stats.
