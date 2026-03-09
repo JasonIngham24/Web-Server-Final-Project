@@ -5,7 +5,6 @@ import NavBar from './components/NavBar.vue';
 <template>
   <NavBar />
   <div class="container">
-    <h1 class="title is-1">Welcome to the Home Page!</h1>
     <RouterView />
   </div>
   </template>
