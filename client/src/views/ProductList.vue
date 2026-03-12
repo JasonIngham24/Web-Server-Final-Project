@@ -19,7 +19,10 @@ const productsStore = useProductsStore();
       </div>
     </div>
   </div>
-  <SideBar />
+  <SideBar :width="300">
+    <h2 class="title is-2"> Shopping Cart </h2>
+    <p>Your cart is currently empty.</p>
+  </SideBar>
 </template>
 
 <style scoped>

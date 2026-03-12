@@ -1,15 +1,12 @@
 <script setup lang="ts">
 const props = defineProps<{
-  isActive?: boolean;
   width?: number;
 }>();
 </script>
 
 <template>
-  <div class = "side-bar" :class ="{ 'is-active': props.isActive }" :style="{ width: props.width + 'px' }">
-    <div class = "temp"></div>
-      <h2 class="title is-4">Shopping Cart</h2>
-      <p>Your cart is currently empty.</p>
+  <div class = "side-bar" :class ="{ 'is-active': false }" :style="{ width: props.width + 'px' }">
+    <slot />
   </div>
 </template>
 
@@ -28,9 +25,5 @@ const props = defineProps<{
   .side-bar:hover,
   .side-bar.is-active {
     transform: translatex(0);
-  }
-  .temp {
-    padding: 1em;
-    background-color: aliceblue;
   }
 </style>
