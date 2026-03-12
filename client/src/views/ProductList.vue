@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SideBar from '@/components/SideBar.vue';
 import { useProductsStore } from '@/stores/products';
 
 const productsStore = useProductsStore();
@@ -18,10 +19,12 @@ const productsStore = useProductsStore();
       </div>
     </div>
   </div>
+  <SideBar />
 </template>
 
 <style scoped>
 .addbutton {
-  margin-top: 10px;
+  float: right;
+  margin-top: .5em;
 }
 </style>
