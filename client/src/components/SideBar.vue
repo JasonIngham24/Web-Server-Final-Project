@@ -14,9 +14,9 @@ const props = defineProps<{
   .side-bar{
     width: 250px;
     position: fixed;
-    top: 0;
+    top: 56px;
     right: 0;
-    height: 100%;
+    height: calc(100% - 56px);
     border-left: 1px solid #ddd;
     box-shadow: 5px 0 5px rgba(0,0,0,0.2);
     transform: translatex(90%);

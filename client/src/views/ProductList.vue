@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import SideBar from '@/components/SideBar.vue';
 import { useProductsStore } from '@/stores/products';
+import ShoppingCart from '@/components/ShoppingCart.vue';
 
 const productsStore = useProductsStore();
 </script>
@@ -20,8 +21,7 @@ const productsStore = useProductsStore();
     </div>
   </div>
   <SideBar :width="300">
-    <h2 class="title is-2"> Shopping Cart </h2>
-    <p>Your cart is currently empty.</p>
+    <ShoppingCart />
   </SideBar>
 </template>
 
