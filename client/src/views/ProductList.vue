@@ -1,14 +1,27 @@
 <script setup lang="ts">
+import { useProductsStore } from '@/stores/products';
 
+const productsStore = useProductsStore();
 </script>
 
 <template>
   <h1 class="title is-1"> Product List </h1>
-  <div class = grid>
-
+  <div class="grid is-col-min-10">
+    <div v-for="product in productsStore.products" :key="product.id" class="box">
+      <img :src="product.thumbnail" alt="Product Image" class="image is-128x128">
+      <h4 class="title is-4">{{ product.title }}</h4>
+      <h6 class="subtitle is-6">{{ product.category }} / {{ product.brand }}</h6>
+      {{ product.description }}
+      <button class="button is-primary is-small add-button">Add to Cart</button>
+      <div>
+        <span class = "price">Price: ${{ product.price }}</span>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-
+.addbutton {
+  margin-top: 10px;
+}
 </style>
